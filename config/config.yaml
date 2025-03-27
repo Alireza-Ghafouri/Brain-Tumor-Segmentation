@@ -1,0 +1,31 @@
+seed: 4
+
+optimizer:
+  lr: 0.0001
+  weight_decay: 0.001
+
+lr_scheduler:
+  step_size: 10
+  gamma: 0.5
+
+training:
+  num_epochs: 30
+  device: 'cuda'
+  batch_size: 16
+  augmentation: True
+  model: "Unet_Basic"   # Options: "Unet_Basic", "Unet_Modified"
+
+data:
+  gdrive_url: "https://drive.google.com/file/d/1UVbUnaTtbnPBkzyM4r_jtl22Y4D_iLKG/view"
+  kaggle_dataset_name: "mateuszbuda/lgg-mri-segmentation"
+  train_ratio: 0.8
+  valid_ratio: 0.1
+
+
+paths:
+  saves_root: ./saves
+  weights_root: ./weights
+  plots_root: ./plots
+  data:
+    dataset_dir: ./Dataset/unzipped
+    zip_path: ./Dataset/lgg-mri-segmentation.zip
