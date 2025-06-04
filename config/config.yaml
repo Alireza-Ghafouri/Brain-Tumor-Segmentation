@@ -16,7 +16,7 @@ training:
   model: "Unet_Basic"   # Options: "Unet_Basic", "Unet_Modified"
 
 data:
-  gdrive_url: "https://drive.google.com/file/d/1UVbUnaTtbnPBkzyM4r_jtl22Y4D_iLKG/view"
+  gdrive_url: "https://drive.google.com/file/d/13CnsJQrApAs8VDU7H2EhCezDPNhfazrX/view?usp=sharing"
   kaggle_dataset_name: "mateuszbuda/lgg-mri-segmentation"
   train_ratio: 0.8
   valid_ratio: 0.1
