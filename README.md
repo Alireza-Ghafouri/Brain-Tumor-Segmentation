@@ -12,6 +12,8 @@ This project implements a U-Net-based model for segmenting brain tumor tissues f
 ## 📂 Dataset
 The dataset consists of MRI scans from **110 patients**, where each patient’s images are stored in separate folders. Each image has a corresponding mask (ending with `_mask`) indicating the tumor region.
 
+🔗 **MRI Brain Tumor Dataset**: Download from Kaggle (mateuszbuda/lgg-mri-segmentation) or via the Google Drive link specified in `config.yaml`.
+
 ### 🔹 Data Splitting
 - **Training:** 80%
 - **Validation:** 10%
